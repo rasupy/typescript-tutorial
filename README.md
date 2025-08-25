@@ -15,4 +15,11 @@ $ docker-compose up --build
 
 # 停止用
 $ docker-compose down -v
+
+# tsc 実行
+$ docker-compose run --rm app npx ts
+$ docker-compose run --rm app node dist/index.js
+
+# 簡略版(index.js => ファイル名)
+$ bash node.sh index.js
 ```
