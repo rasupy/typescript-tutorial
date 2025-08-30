@@ -23,5 +23,5 @@ $ docker-compose run --rm app node dist/index.js
 
 # 簡略版(上から順番に実行)
 $ bash npx.sh file_01/p_01.ts
-$ bash node.sh file_01/p_01.js
+$ bash node.sh p_01.js
 ```
